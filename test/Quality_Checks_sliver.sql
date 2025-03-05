@@ -1,3 +1,30 @@
+/*
+	==========================================================================================
+	
+		Qulaity Checks 
+	
+	==========================================================================================
+	Script purpose :
+				This Script performs various quality cheecks for data consistency,accurancy,
+				and standardization across the 'Sliver'Schema.it imcludes Checks For:
+					--Null or Duplicate primary Keys 
+					--UnWanted Spaces in String fileds.
+					--Data Standardizations and consistency 
+					--invalid data ranges and orders
+					--data consistency between related fileds
+
+
+
+
+	usage Notes :
+				--Run these checks After data loading sliver Layer 
+				--Inverstigate and resolve any discreoancies found during the checks 
+				
+	
+	==========================================================================================
+
+*/
+
 --Quality Checking 
 --Check For Nulls or Duplicate in primary key 
 --Expectation: No result 
